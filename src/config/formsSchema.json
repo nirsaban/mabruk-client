@@ -1,0 +1,23 @@
+{
+    
+    "CREATE_CATEGORY":{
+        "fields":[{"name":"category_name","type":"text"}],
+        "title":"Add new Category"
+    },
+    "CREATE_PRODUCT":{
+        "fields":[{"name":"category_id","type":"select"},
+                  {"name":"product_name","type":"text"},
+                  {"name":"price","type":"number"},
+                  {"name":"images","type":"file"},
+                  {"name":"discreption","type":"text"}],
+        "title":"Create Product"
+    },
+    "LOGIN":{
+        "fields":[{"name":"email","type":"email"},{"name":"password" ,"type":"password"}],
+         "title":"Login to your account"
+     },
+    "REGISTER":{
+        "fields":[{"name":"email","type":"email"},{"name":"password" ,"type":"password"},{"name":"full_name","type":"text"}],
+        "title":"Create New account"
+    }
+}

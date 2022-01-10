@@ -1,0 +1,12 @@
+{
+    "user":{
+        "LOGIN":"user/login",
+        "REGISTER":"user/register",
+        "LOGOUT":"user/logout"
+    },
+    "category":{
+        "CREATE_CATEGORY":"category/create",
+        "DELETE_CATEGORY":"category/delete",
+        "GET_CATEGORIES":"category/get"
+    }
+}
